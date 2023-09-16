@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #fefaf3;
+}
+.main {
+  background-image: url(/space/space.png);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(2, 2, 78);
+  /* border: 1px solid red; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.space {
+  /* border: 1px solid white; */
+  width: 30%;
+  height: auto;
+  padding: 14% 0 0 10%;
+  font-family: "Poppins", sans-serif;
+}
+.headingSpace {
+  font-size: 6em;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.headingSearch {
+  font-size: 1.6em;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin: 5% 0 5% 0;
+}
+.para {
+  color: white;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+}
+.input-method {
+  width: 30%;
+  height: auto;
+  margin: 2% 0 0 10%;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#input {
+  width: 60%;
+  height: 100%;
+  border: none;
+  padding: 15px;
+  font-size: medium;
+  /* outline: none; */
+}
+.btn {
+  width: 30%;
+  color: black;
+  font-size: 16px;
+  background-color: #f8cb8a;
+  border: none;
+  outline: none;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: #f5bc6c;
+}
+.funContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  height: 400px;
+  margin: 6rem auto 3rem auto;
+}
+.funHeading {
+  font-family: "Roboto", sans-serif;
+  color: rgb(3, 3, 53);
+  font-size: 1.4rem;
+}
+.heading2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: rgb(3, 3, 53);
+  margin: 1.5rem 0;
+}
+.divider {
+  width: 10%;
+  border: 5px solid #f5bc6c;
+  margin: 0 auto;
+}
+.funPara {
+  display: flex;
+  text-align: center;
+  color: gray;
+  margin: 1.6rem;
+  line-height: 25px;
+  font-family: "Roboto", sans-serif;
+}
+.welcoeAbroad {
+  /* border: 1px solid green; */
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: auto;
+  background-color: white;
+  border-radius: 0;
+}
+.welcomeLeft {
+  width: 70%;
+}
+.welcomeLeft > img {
+  width: 100%;
+  height: 100%;
+}
+.welcomeRight {
+  width: 30%;
+  margin: 0 1.6rem;
+}
+.welcomeHead {
+  font-family: "Roboto", sans-serif;
+  color: rgb(3, 3, 53);
+  font-size: 1.6rem;
+  margin: 2.3rem 0;
+}
+.welcomeHeader {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: rgb(3, 3, 53);
+}
+.welcomeDivder2 {
+  width: 30%;
+  border: 5px solid #f5bc6c;
+  margin: 1.7rem 0;
+}
+.welcomePara {
+  text-align: justify;
+  color: gray;
+  line-height: 24px;
+  margin: 2rem 0;
+  font-family: "Roboto", sans-serif;
+}
+.missionContainer {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 6rem auto;
+}
+.missionLeft {
+  width: 45%;
+  background-color: white;
+}
+.missionRight {
+  width: 45%;
+  background-color: white;
+}
+.missionLeft > img {
+  width: 100%;
+}
+.missionRight > img {
+  width: 100%;
+}
+.missionPara,
+.missionPara2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  margin: 2rem 0.6rem;
+  line-height: 23px;
+}
+.educationalContainer {
+  background-image: url(/space/space5.png);
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(6, 6, 62);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.educon {
+  width: 60%;
+  margin: auto;
+}
+
+.eduPara {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding: 5rem 0 1.6rem 0;
+}
+.eduHeading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.divider3 {
+  width: 10%;
+  border: 5px solid #f5bc6c;
+  margin: 2rem auto;
+}
+.edu {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-align: justify;
+  line-height: 25px;
+  margin: 0.9rem;
+  color: #ffffff;
+}
+.containerLast {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  background-image: url(/space/space7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lastLeft {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.lastHeading {
+  color: #fff;
+  margin: 0.8rem 4rem;
+}
+.lastPara {
+  color: #fff;
+  margin: 0.8rem 4rem;
+  line-height: 25px;
+}
+.lastRight {
+  position: relative;
+}
+.lastRight > img {
+  position: relative;
+  top: 25%;
+  bottom: 25%;
+  left: 45%;
+}
